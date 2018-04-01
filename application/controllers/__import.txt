@@ -1,0 +1,104 @@
+$arr_data = array();
+			$data = $this->input->post();			
+			if($data){
+				//var_dump ($data);
+				
+				//else{
+				
+					//var_dump ($data);
+					$param = array(
+						'nama_bayi' => $this->input->post('nama_bayi'),
+						'nama_orangtua' => $this->input->post('nama_orangtua'),
+						'kelamin' => $this->input->post('kelamin'),
+						'tgl_lahir' => date("Y-m-d", strtotime($this->input->post('tgl_lahir'))),
+						'bb_lahir' => $this->input->post('bb_lahir'),
+						'alamat_bayi' => $this->input->post('alamat_bayi'),
+						'desa_id' => $this->input->post('desa_id'),
+					);
+					
+					//var_dump ($param);
+					if(!$this->cek_balita($param)){
+						//$insert_query = $this->db->insert_string('tbl_gizi', $param);
+						//$insert_query = str_replace('INSERT INTO','INSERT IGNORE INTO',$insert_query);
+						//print_r ($insert_query);
+					
+						//$this->db->query($insert_query); 
+						
+						$this->db->insert('tbl_gizi', $param);
+						//echo $this->db->last_query();
+					}else{
+						$this->session->set_flashdata('response',"Data Bayi/Balita Duplikasi!");
+					}
+				//}
+			}
+			
+			if($this->uri->segment(3)=='input'){
+				//var_dump($this->input->get());
+				$desa = $this->input->get();
+				$desaid = $desa['desa'];
+				$data = array(
+					'all_balita' => $this->all_balita($desaid),
+					'list_desa' => $this->list_desa(),
+				);
+				
+				$this->load->view('AdminLTE/program_gizi_add', $data);
+				
+			}elseif($this->uri->segment(3)=='import'){
+				//echo "IMPORT DATA VIA EXCELL!";
+				//$this->load->library("PHPExcel");
+				
+				if($this->input->post('action')=='import'){
+					ini_set('memory_limit', '-1');
+					
+					//require_once(APPPATH.'controllers/__import_poligizi.php');					
+					$inputFileName = './uploads/'.str_replace(" ", "_", $_FILES['fileToUpload']['name']);
+					//var_dump ($fileName);
+					if(!file_exists($inputFileName)){
+						$this->_conf_upload();
+						if (!$this->upload->do_upload('fileToUpload')){  // cek apakah ada file yg diupload
+							$status = array('status' => false, 'msg' => $this->upload->display_errors());
+						}else{
+							$file = $this->upload->data();
+							// pura-puranya disini ada sebuah proses mengenai file yg d upload.
+							$status = array('status' => true, 'msg' => 'Tugas berhasil di upload', 'detail' => $file);
+						}
+						echo json_encode($status);
+					}
+					
+					try {
+						$inputFileType = IOFactory::identify($inputFileName);
+						$objReader = IOFactory::createReader($inputFileType);
+						$objPHPExcel = $objReader->load($inputFileName);
+					} catch(Exception $e) {
+						die('Error loading file :' . $e->getMessage());
+					}
+
+					/*$cell_collection = $objPHPExcel->getActiveSheet()->getCellCollection();
+					foreach ($cell_collection as $cell) {
+						$column = $objPHPExcel->getActiveSheet()->getCell($cell)->getColumn();
+						$row = $objPHPExcel->getActiveSheet()->getCell($cell)->getRow();
+						if($row >=7 && $row<=100){
+							$data_value = $objPHPExcel->getActiveSheet()->getCell($cell)->getValue();
+							$arr_data[$row][$column] = $data_value;
+						}
+					}*/
+					
+					$allDataInSheet = $objPHPExcel->getActiveSheet()->toArray(null,true,true,true);
+					$arrayCount = count($allDataInSheet);  // Here get total count of row in that Excel sheet
+					for($i=100;$i<=$arrayCount;$i++){
+						$arr_data[] = $allDataInSheet[$i];
+					}
+					
+					//$arr_data = json_encode($arr_data);
+					
+					//file_put_contents("./uploads/demo.json", json_encode($arr_data));
+				}
+				
+				$this->load->view('AdminLTE/program_gizi_import', array("result" => json_encode($arr_data)));
+			}else{ 
+				$data = array(
+					'list_desa' => $this->list_desa(),
+				);
+				
+				$this->load->view('AdminLTE/program_gizi', $data);
+			}

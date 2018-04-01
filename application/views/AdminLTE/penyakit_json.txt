@@ -1,0 +1,988 @@
+[{
+	"id": "279",
+	"code": "1",
+	"penyakit": "PENYAKIT INFEKSI PADA USUS",
+	"parent": "0",
+	"sub": [{
+		"id": "280",
+		"code": "101",
+		"penyakit": "Kolera",
+		"parent": "1",
+		"sub": []
+	},
+	{
+		"id": "281",
+		"code": "102",
+		"penyakit": "Diare",
+		"parent": "1",
+		"sub": []
+	},
+	{
+		"id": "282",
+		"code": "104",
+		"penyakit": "Dysentri basiler",
+		"parent": "1",
+		"sub": []
+	},
+	{
+		"id": "283",
+		"code": "105",
+		"penyakit": "Keracunan makanan",
+		"parent": "1",
+		"sub": []
+	},
+	{
+		"id": "284",
+		"code": "106",
+		"penyakit": "Tipus perut",
+		"parent": "1",
+		"sub": []
+	},
+	{
+		"id": "285",
+		"code": "107",
+		"penyakit": "Paratipus",
+		"parent": "1",
+		"sub": []
+	},
+	{
+		"id": "286",
+		"code": "108",
+		"penyakit": "Infeksi penyakit lain",
+		"parent": "1",
+		"sub": []
+	}]
+},
+{
+	"id": "287",
+	"code": "2",
+	"penyakit": "PENYAKIT TUBERCULOSA",
+	"parent": "0",
+	"sub": [{
+		"id": "288",
+		"code": "201",
+		"penyakit": "TB paru BTA ( + )",
+		"parent": "2",
+		"sub": []
+	},
+	{
+		"id": "289",
+		"code": "202",
+		"penyakit": "TB paru klinis ( suspec )",
+		"parent": "2",
+		"sub": []
+	}]
+},
+{
+	"id": "290",
+	"code": "3",
+	"penyakit": "PENYAKIT BAKTERI LAIN",
+	"parent": "0",
+	"sub": [{
+		"id": "291",
+		"code": "301",
+		"penyakit": "Pes ( sampar )",
+		"parent": "3",
+		"sub": []
+	},
+	{
+		"id": "292",
+		"code": "302",
+		"penyakit": "Kusta PB",
+		"parent": "3",
+		"sub": []
+	},
+	{
+		"id": "293",
+		"code": "303",
+		"penyakit": "Kusta MB",
+		"parent": "3",
+		"sub": []
+	},
+	{
+		"id": "294",
+		"code": "304",
+		"penyakit": "Difteri",
+		"parent": "3",
+		"sub": []
+	},
+	{
+		"id": "295",
+		"code": "305",
+		"penyakit": "Batu rejan",
+		"parent": "3",
+		"sub": []
+	},
+	{
+		"id": "296",
+		"code": "306",
+		"penyakit": "Tetanus",
+		"parent": "3",
+		"sub": []
+	},
+	{
+		"id": "297",
+		"code": "307",
+		"penyakit": "Antrax",
+		"parent": "3",
+		"sub": []
+	}]
+},
+{
+	"id": "298",
+	"code": "4",
+	"penyakit": "PENYAKIT VIRUS",
+	"parent": "0",
+	"sub": [{
+		"id": "299",
+		"code": "401",
+		"penyakit": "Poliomeilitis Acut",
+		"parent": "4",
+		"sub": []
+	},
+	{
+		"id": "300",
+		"code": "402",
+		"penyakit": "Cacar air",
+		"parent": "4",
+		"sub": []
+	},
+	{
+		"id": "301",
+		"code": "403",
+		"penyakit": "Campak",
+		"parent": "4",
+		"sub": []
+	},
+	{
+		"id": "302",
+		"code": "404",
+		"penyakit": "Radang hati menahun",
+		"parent": "4",
+		"sub": []
+	},
+	{
+		"id": "303",
+		"code": "405",
+		"penyakit": "Rabies",
+		"parent": "4",
+		"sub": []
+	},
+	{
+		"id": "304",
+		"code": "406",
+		"penyakit": "Trachoma",
+		"parent": "4",
+		"sub": []
+	},
+	{
+		"id": "305",
+		"code": "407",
+		"penyakit": "Dengue",
+		"parent": "4",
+		"sub": []
+	},
+	{
+		"id": "306",
+		"code": "408",
+		"penyakit": "DHF",
+		"parent": "4",
+		"sub": []
+	},
+	{
+		"id": "307",
+		"code": "409",
+		"penyakit": "HIV-AIDS",
+		"parent": "4",
+		"sub": []
+	}]
+},
+{
+	"id": "308",
+	"code": "5",
+	"penyakit": "RICKETSIASIS DAN PENYAKIT KARENA ARTHROPODA LAIN",
+	"parent": "0",
+	"sub": [{
+		"id": "309",
+		"code": "501",
+		"penyakit": "Malaria tropoka (P. Falciparum )",
+		"parent": "5",
+		"sub": []
+	},
+	{
+		"id": "310",
+		"code": "502",
+		"penyakit": "Malaria tertiana ( P. Pivax )",
+		"parent": "5",
+		"sub": []
+	},
+	{
+		"id": "311",
+		"code": "503",
+		"penyakit": "Malaria Kwartana ( P. Malariae )",
+		"parent": "5",
+		"sub": []
+	},
+	{
+		"id": "312",
+		"code": "504",
+		"penyakit": "Malaria Ovale",
+		"parent": "5",
+		"sub": []
+	},
+	{
+		"id": "313",
+		"code": "505",
+		"penyakit": "Malaria mix (Pf+Pv)",
+		"parent": "5",
+		"sub": []
+	},
+	{
+		"id": "314",
+		"code": "506",
+		"penyakit": "Malaria klinis (tanpa lab)",
+		"parent": "5",
+		"sub": []
+	}]
+},
+{
+	"id": "315",
+	"code": "6",
+	"penyakit": "PENYAKIT KELAMIN",
+	"parent": "0",
+	"sub": [{
+		"id": "316",
+		"code": "601",
+		"penyakit": "Siphilis",
+		"parent": "6",
+		"sub": []
+	},
+	{
+		"id": "317",
+		"code": "602",
+		"penyakit": "Infeksi Gookokus",
+		"parent": "6",
+		"sub": []
+	},
+	{
+		"id": "318",
+		"code": "603",
+		"penyakit": "Penyakit kelamin lainnya",
+		"parent": "6",
+		"sub": []
+	}]
+},
+{
+	"id": "319",
+	"code": "7",
+	"penyakit": "PENYAKIT INFEKSI KARENA PARASIT DAN AKIBAT KEMUDIA",
+	"parent": "0",
+	"sub": [{
+		"id": "320",
+		"code": "701",
+		"penyakit": "Frambusia",
+		"parent": "7",
+		"sub": []
+	},
+	{
+		"id": "321",
+		"code": "702",
+		"penyakit": "Filariasis",
+		"parent": "7",
+		"sub": []
+	},
+	{
+		"id": "322",
+		"code": "703",
+		"penyakit": "Cacing tambang",
+		"parent": "7",
+		"sub": []
+	},
+	{
+		"id": "323",
+		"code": "704",
+		"penyakit": "Cacing cambuk",
+		"parent": "7",
+		"sub": []
+	},
+	{
+		"id": "324",
+		"code": "705",
+		"penyakit": "Taeniasis",
+		"parent": "7",
+		"sub": []
+	},
+	{
+		"id": "325",
+		"code": "706",
+		"penyakit": "Cystecercosis",
+		"parent": "7",
+		"sub": []
+	},
+	{
+		"id": "326",
+		"code": "707",
+		"penyakit": "Ascariasis",
+		"parent": "7",
+		"sub": []
+	},
+	{
+		"id": "327",
+		"code": "708",
+		"penyakit": "Penyakit cacing lainnya",
+		"parent": "7",
+		"sub": []
+	},
+	{
+		"id": "328",
+		"code": "709",
+		"penyakit": "Scabies",
+		"parent": "7",
+		"sub": []
+	},
+	{
+		"id": "329",
+		"code": "710",
+		"penyakit": "Peny. Kulit lain karena jamur",
+		"parent": "7",
+		"sub": []
+	},
+	{
+		"id": "330",
+		"code": "711",
+		"penyakit": "Penyakit parasit lainnya",
+		"parent": "7",
+		"sub": []
+	}]
+},
+{
+	"id": "331",
+	"code": "8",
+	"penyakit": "PENY. ENDOKRIN DAN METABOLIK SERTA GANGGUAN KEKEBA",
+	"parent": "0",
+	"sub": [{
+		"id": "332",
+		"code": "801",
+		"penyakit": "Gondok endemik",
+		"parent": "8",
+		"sub": []
+	},
+	{
+		"id": "333",
+		"code": "802",
+		"penyakit": "Diabetes melitus",
+		"parent": "8",
+		"sub": []
+	},
+	{
+		"id": "334",
+		"code": "803",
+		"penyakit": "Penyakit endokrin lainnya",
+		"parent": "8",
+		"sub": []
+	}]
+},
+{
+	"id": "335",
+	"code": "9",
+	"penyakit": "DEFISIENSI GIZI",
+	"parent": "0",
+	"sub": [{
+		"id": "336",
+		"code": "901",
+		"penyakit": "Kwarsiorkor",
+		"parent": "9",
+		"sub": []
+	},
+	{
+		"id": "337",
+		"code": "902",
+		"penyakit": "Marasmus",
+		"parent": "9",
+		"sub": []
+	},
+	{
+		"id": "338",
+		"code": "903",
+		"penyakit": "KKP",
+		"parent": "9",
+		"sub": []
+	},
+	{
+		"id": "339",
+		"code": "904",
+		"penyakit": "Devisiensi vit A",
+		"parent": "9",
+		"sub": []
+	},
+	{
+		"id": "340",
+		"code": "905",
+		"penyakit": "Devisiensi vit lainnya (sebutkan)",
+		"parent": "9",
+		"sub": []
+	},
+	{
+		"id": "341",
+		"code": "906",
+		"penyakit": "Devisiensi gizi lainnya",
+		"parent": "9",
+		"sub": []
+	}]
+},
+{
+	"id": "342",
+	"code": "10",
+	"penyakit": "GANGGUAN JIWA",
+	"parent": "0",
+	"sub": [{
+		"id": "343",
+		"code": "1001",
+		"penyakit": "Ganguan kepribadian",
+		"parent": "10",
+		"sub": []
+	},
+	{
+		"id": "344",
+		"code": "1002",
+		"penyakit": "Gangguan neurosa",
+		"parent": "10",
+		"sub": []
+	},
+	{
+		"id": "345",
+		"code": "1003",
+		"penyakit": "Psikosa",
+		"parent": "10",
+		"sub": []
+	},
+	{
+		"id": "346",
+		"code": "1004",
+		"penyakit": "Ketergantungan obat\/alkohol",
+		"parent": "10",
+		"sub": []
+	},
+	{
+		"id": "347",
+		"code": "1005",
+		"penyakit": "Retardasi mental",
+		"parent": "10",
+		"sub": []
+	},
+	{
+		"id": "348",
+		"code": "1006",
+		"penyakit": "Penyakit jiwa lainnya",
+		"parent": "10",
+		"sub": []
+	}]
+},
+{
+	"id": "349",
+	"code": "11",
+	"penyakit": "PENYAKIT SUSUNAN SYARAF",
+	"parent": "0",
+	"sub": [{
+		"id": "350",
+		"code": "1101",
+		"penyakit": "Epilepsi",
+		"parent": "11",
+		"sub": []
+	},
+	{
+		"id": "351",
+		"code": "1102",
+		"penyakit": "Meningitis",
+		"parent": "11",
+		"sub": []
+	},
+	{
+		"id": "352",
+		"code": "1103",
+		"penyakit": "Enchepalitis",
+		"parent": "11",
+		"sub": []
+	},
+	{
+		"id": "353",
+		"code": "1104",
+		"penyakit": "Penyakit gangguan saraf lain",
+		"parent": "11",
+		"sub": []
+	}]
+},
+{
+	"id": "354",
+	"code": "12",
+	"penyakit": "PENYAKIT MATA",
+	"parent": "0",
+	"sub": [{
+		"id": "355",
+		"code": "1201",
+		"penyakit": "Glaukoma",
+		"parent": "12",
+		"sub": []
+	},
+	{
+		"id": "356",
+		"code": "1202",
+		"penyakit": "Katarak",
+		"parent": "12",
+		"sub": []
+	},
+	{
+		"id": "357",
+		"code": "1203",
+		"penyakit": "Penglihatan kurang",
+		"parent": "12",
+		"sub": []
+	},
+	{
+		"id": "358",
+		"code": "1204",
+		"penyakit": "Kebutaan",
+		"parent": "12",
+		"sub": []
+	},
+	{
+		"id": "359",
+		"code": "1205",
+		"penyakit": "Conjungtivitis",
+		"parent": "12",
+		"sub": []
+	},
+	{
+		"id": "360",
+		"code": "1206",
+		"penyakit": "Kekeruhan kornea",
+		"parent": "12",
+		"sub": []
+	},
+	{
+		"id": "361",
+		"code": "1207",
+		"penyakit": "Radang Saluran kelenjar mata",
+		"parent": "12",
+		"sub": []
+	},
+	{
+		"id": "362",
+		"code": "1208",
+		"penyakit": "Penyakit mata lain",
+		"parent": "12",
+		"sub": []
+	}]
+},
+{
+	"id": "363",
+	"code": "13",
+	"penyakit": "PENYAKIT PADA TELINGA DAN MASTOID",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "364",
+	"code": "14",
+	"penyakit": "DEMAM REMATIK DAN PENY. JANTUNG REMATIK",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "365",
+	"code": "15",
+	"penyakit": "PENY. TEKANAN DARAH TINGGI",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "366",
+	"code": "16",
+	"penyakit": "PENY. PEREDARAN DARAH PARU DAN PENY. JANTUNG LAINN",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "367",
+	"code": "17",
+	"penyakit": "PENY. SUSUNAN PEREDARAN DARAH",
+	"parent": "0",
+	"sub": [{
+		"id": "368",
+		"code": "1701",
+		"penyakit": "Wasir",
+		"parent": "17",
+		"sub": []
+	},
+	{
+		"id": "369",
+		"code": "1702",
+		"penyakit": "Varises",
+		"parent": "17",
+		"sub": []
+	},
+	{
+		"id": "370",
+		"code": "1703",
+		"penyakit": "Penyakit lainnya",
+		"parent": "17",
+		"sub": []
+	}]
+},
+{
+	"id": "371",
+	"code": "18",
+	"penyakit": "PENYAKIT SALURAN NAFAS BAGIAN ATAS",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "372",
+	"code": "19",
+	"penyakit": "PENY. LAIN PADA SALURAN PERNAFASAN",
+	"parent": "0",
+	"sub": [{
+		"id": "373",
+		"code": "1901",
+		"penyakit": "Pneumonia",
+		"parent": "19",
+		"sub": []
+	},
+	{
+		"id": "374",
+		"code": "1902",
+		"penyakit": "Bronchitis",
+		"parent": "19",
+		"sub": []
+	},
+	{
+		"id": "375",
+		"code": "1903",
+		"penyakit": "Influenza",
+		"parent": "19",
+		"sub": []
+	},
+	{
+		"id": "376",
+		"code": "1904",
+		"penyakit": "Asma",
+		"parent": "19",
+		"sub": []
+	},
+	{
+		"id": "377",
+		"code": "1905",
+		"penyakit": "Penyakit lainnya",
+		"parent": "19",
+		"sub": []
+	}]
+},
+{
+	"id": "378",
+	"code": "20",
+	"penyakit": "PENYAKIT RONGGA MULUT",
+	"parent": "0",
+	"sub": [{
+		"id": "379",
+		"code": "2001",
+		"penyakit": "Karies gigi",
+		"parent": "20",
+		"sub": []
+	},
+	{
+		"id": "380",
+		"code": "2002",
+		"penyakit": "Peny. Pulva dan periapikal",
+		"parent": "20",
+		"sub": []
+	},
+	{
+		"id": "381",
+		"code": "2003",
+		"penyakit": "Peny. Gusi dan jaringan periodental ",
+		"parent": "20",
+		"sub": []
+	},
+	{
+		"id": "382",
+		"code": "2004",
+		"penyakit": "Kel. Dentofasial termasuk maloklusi",
+		"parent": "20",
+		"sub": []
+	},
+	{
+		"id": "383",
+		"code": "2005",
+		"penyakit": "Moniliasis,stomatitis",
+		"parent": "20",
+		"sub": []
+	}]
+},
+{
+	"id": "384",
+	"code": "21",
+	"penyakit": "PENY LAIN PADA SISTEM PENCERNAAN",
+	"parent": "0",
+	"sub": [{
+		"id": "385",
+		"code": "2101",
+		"penyakit": "Tukak lambung",
+		"parent": "21",
+		"sub": []
+	},
+	{
+		"id": "386",
+		"code": "2102",
+		"penyakit": "Apendisitis",
+		"parent": "21",
+		"sub": []
+	},
+	{
+		"id": "387",
+		"code": "2103",
+		"penyakit": "Hernia",
+		"parent": "21",
+		"sub": []
+	},
+	{
+		"id": "388",
+		"code": "2104",
+		"penyakit": "Penyakit hati menahun",
+		"parent": "21",
+		"sub": []
+	},
+	{
+		"id": "389",
+		"code": "2105",
+		"penyakit": "Penyakit yang lain",
+		"parent": "21",
+		"sub": []
+	}]
+},
+{
+	"id": "390",
+	"code": "22",
+	"penyakit": "PENYAKIT PADA SALURAN KENCING",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "391",
+	"code": "23",
+	"penyakit": "KEGUGURAN",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "392",
+	"code": "24",
+	"penyakit": "Sebab Kel Kandungan langsung",
+	"parent": "0",
+	"sub": [{
+		"id": "393",
+		"code": "2401",
+		"penyakit": "Perdarahan pada masa kehamilan dan masa nifas",
+		"parent": "24",
+		"sub": []
+	},
+	{
+		"id": "394",
+		"code": "2402",
+		"penyakit": "Keracunan kehamilan",
+		"parent": "24",
+		"sub": []
+	},
+	{
+		"id": "395",
+		"code": "2403",
+		"penyakit": "Rintangan persalinan",
+		"parent": "24",
+		"sub": []
+	},
+	{
+		"id": "396",
+		"code": "2404",
+		"penyakit": "Infeksi pada kehamilan,persalinan dan masa nifas",
+		"parent": "24",
+		"sub": []
+	},
+	{
+		"id": "397",
+		"code": "2405",
+		"penyakit": "Kelainan yang lain",
+		"parent": "24",
+		"sub": []
+	}]
+},
+{
+	"id": "398",
+	"code": "25",
+	"penyakit": "PENYAKIT KULIT DAN JARINGAN BAWAH KULIT",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "399",
+	"code": "26",
+	"penyakit": "CACAD BAWAAN",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "400",
+	"code": "27",
+	"penyakit": "KEADAAN TERTENTU PADA MASA KEHAMILAN",
+	"parent": "0",
+	"sub": [{
+		"id": "401",
+		"code": "2701",
+		"penyakit": "Trauma lahir",
+		"parent": "27",
+		"sub": []
+	},
+	{
+		"id": "402",
+		"code": "2702",
+		"penyakit": "Aspiksia",
+		"parent": "27",
+		"sub": []
+	},
+	{
+		"id": "403",
+		"code": "2703",
+		"penyakit": "Lahir mati",
+		"parent": "27",
+		"sub": []
+	},
+	{
+		"id": "404",
+		"code": "2704",
+		"penyakit": "Tetanus neonatorum",
+		"parent": "27",
+		"sub": []
+	}]
+},
+{
+	"id": "405",
+	"code": "28",
+	"penyakit": "NEOPLASMA",
+	"parent": "0",
+	"sub": [{
+		"id": "406",
+		"code": "2801",
+		"penyakit": "Tumor jinak",
+		"parent": "28",
+		"sub": []
+	},
+	{
+		"id": "407",
+		"code": "2802",
+		"penyakit": "Tumor ganas",
+		"parent": "28",
+		"sub": []
+	}]
+},
+{
+	"id": "408",
+	"code": "29",
+	"penyakit": "KECELAKAAN",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "409",
+	"code": "30",
+	"penyakit": "PENY PADA ALAT PEMBUAT DARAH",
+	"parent": "0",
+	"sub": [{
+		"id": "410",
+		"code": "3001",
+		"penyakit": "Anemia",
+		"parent": "30",
+		"sub": []
+	}]
+},
+{
+	"id": "411",
+	"code": "31",
+	"penyakit": "PENYAKIT-PENYAKIT LAIN KEADAN YANG LAIN",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "412",
+	"code": "32",
+	"penyakit": "Obesitas ( 32)",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "413",
+	"code": "33",
+	"penyakit": "Peny. Tiroid (33)",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "414",
+	"code": "34",
+	"penyakit": "stroke (34)",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "415",
+	"code": "35",
+	"penyakit": "PPOK (35)",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "417",
+	"code": "37",
+	"penyakit": "ginjal kronik (37)",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "416",
+	"code": "38",
+	"penyakit": "Osteoporosis (38)",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "418",
+	"code": "39",
+	"penyakit": "Tumor Payudara (39)",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "419",
+	"code": "40",
+	"penyakit": "Retinol Blastoma (40)",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "420",
+	"code": "41",
+	"penyakit": "Leukemia (41)",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "421",
+	"code": "42",
+	"penyakit": "Lesi Pra Kanker (IVA Positif) (42)",
+	"parent": "0",
+	"sub": []
+},
+{
+	"id": "422",
+	"code": "43",
+	"penyakit": "Cedera Akibat KDRT (43)",
+	"parent": "0",
+	"sub": []
+}]
